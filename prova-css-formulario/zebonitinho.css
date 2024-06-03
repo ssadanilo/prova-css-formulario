@@ -1,0 +1,79 @@
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: antiquewhite;
+   font-family:  'Segoe UI';
+   color: brown;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    box-sizing: border-box;
+    background-color: bisque;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    box-sizing: border-box;
+    border: 1px solid lightsalmon;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: antiquewhite;
+    font-family:  'Segoe UI';
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darksalmon;
+    font-family:  'Segoe UI';
+}
+
+input[type="date"] {
+    color: brown;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    font-family:  'Segoe UI';
+}
+
+
+
